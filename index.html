@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Niloofar's Project Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="stars.css" />
+    <link rel="stylesheet" href="game-art.css" />
+    <link rel="stylesheet" href="lily-art.css" />
+    <link rel="stylesheet" href="lily-size.css" />
+    <link rel="stylesheet" href="vinyl.css" />
+    <link rel="stylesheet" href="note-position.css" />
+    <link rel="stylesheet" href="court-size.css" />
+    <link rel="stylesheet" href="shooting-star.css" />
+  </head>
+  <body>
+    <div class="shooting-star" aria-hidden="true"><span></span></div>
+    <div class="star-field" aria-hidden="true"><span>✦</span><span>✧</span><span>✦</span><span>·</span><span>✧</span><span>✦</span><span>·</span><span>✧</span><span>✦</span><span>·</span><span>✧</span><span>✦</span></div>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="Niloofar's Project Hub home">
+          <span class="brand-mark">N</span>
+          <span>project hub</span>
+        </a>
+        <div class="status"><span class="status-dot"></span> a little corner of the internet</div>
+      </header>
+
+      <main id="top">
+        <section class="hero" aria-labelledby="page-title">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="spark">✦</span> welcome, explorer</p>
+            <h1 id="page-title">Niloofar's<br /><span>Project Hub</span><i>✦</i></h1>
+            <p class="intro">A colorful collection of things I’m making, learning, and dreaming up.</p>
+            <a class="scroll-link" href="#projects">Explore projects <span>↓</span></a>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <div class="sun"></div>
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="planet planet-pink"></div>
+            <div class="planet planet-blue"></div>
+            <div class="orbit-label">ideas<br />in motion</div>
+          </div>
+        </section>
+
+        <section class="projects-section" id="projects" aria-labelledby="projects-title">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">01 / collection</p>
+              <h2 id="projects-title">Things I’m working on</h2>
+            </div>
+            <p class="project-count">04 projects <span>↘</span></p>
+          </div>
+
+          <div class="project-grid">
+            <a class="project-card game-card featured" href="#" data-project="My First Game">
+              <div class="card-top"><span class="tag">game design</span><span class="arrow">↗</span></div>
+              <div class="game-illustration basketball-art"><div class="court-lines"><i></i><b></b><em></em><strong></strong></div><svg class="basketball-ball" viewBox="0 0 120 120" role="img" aria-label="Basketball outline"><circle cx="60" cy="60" r="55"/><path d="M7 45c28 8 58 7 106-8M14 88c27-13 60-15 96-2M45 7c18 27 19 67 4 106M87 10C67 35 65 76 80 112"/></svg><span class="basketball-star">✦</span><span class="ground"></span></div>
+              <div class="card-bottom"><h3>My First Game</h3><p>Jump, dash, and discover ✦</p></div>
+            </a>
+
+            <a class="project-card notebook-card" href="#" data-project="Sketchbook">
+              <div class="card-top"><span class="tag">visual notes</span><span class="arrow">↗</span></div>
+              <div class="notebook-art"><div class="notebook-lines"></div><span>ideas<br />worth<br /><em>keeping</em></span><b>✎</b></div>
+              <div class="card-bottom"><h3>Sketchbook</h3><p>Loose thoughts &amp; tiny drawings</p></div>
+            </a>
+
+            <a class="project-card garden-card" href="#" data-project="Tiny Garden">
+              <div class="card-top"><span class="tag">slow project</span><span class="arrow">↗</span></div>
+              <div class="garden-art"><span class="leaf leaf-a"></span><span class="leaf leaf-b"></span><span class="lily-flower"><i></i><i></i><i></i><i></i><i></i><i></i><b></b></span><span class="stem"></span></div>
+              <div class="card-bottom"><h3>Tiny Garden</h3><p>A small experiment in growing</p></div>
+            </a>
+
+            <a class="project-card playlist-card" href="#" data-project="Sound & Color">
+              <div class="card-top"><span class="tag">moodboard</span><span class="arrow">↗</span></div>
+              <div class="playlist-art"><span class="disc"></span><span class="music-note">♪</span><span class="music-note note-two">♫</span></div>
+              <div class="card-bottom"><h3>Sound &amp; Color</h3><p>Music for making things</p></div>
+            </a>
+          </div>
+        </section>
+      </main>
+
+      <footer><span>made with curiosity</span><span>© 2026 niloofar</span><span class="footer-symbol">✳</span></footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
