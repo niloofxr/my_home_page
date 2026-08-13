@@ -1,0 +1,4 @@
+.project-grid{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,300px)}.project-card.featured{grid-row:auto}.project-card{min-height:0}.game-illustration{inset:62px 0 72px}.tic-tac-toe-grid{inset:62px 24% 72px}.notebook-card .card-bottom,.garden-card .card-bottom,.playlist-card .card-bottom{transform:translateY(0)}@media(max-width:760px){.project-grid{grid-template-columns:1fr;grid-template-rows:repeat(4,285px)}.project-card{min-height:285px}}
+.notebook-card .tic-tac-toe-grid{top:50%;left:50%;right:auto;bottom:auto;width:150px;height:150px;inset:auto;transform:translate(-50%,-50%)}
+.notebook-card .tic-tac-toe-grid{inset:auto;top:50%;left:50%;right:auto;bottom:auto;width:150px;height:150px;transform:translate(-50%,-50%)}
+.notebook-card .tic-tac-toe-grid{top:calc(50% - 2mm)}
