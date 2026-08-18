@@ -5,3 +5,4 @@
 .mario-head{top:56px}.mario-ball{right:27%;bottom:30px}
 .mario-ball{right:calc(27% + 5cm)}
 .mario-body{background:linear-gradient(90deg,#6f58aa 0 24%,var(--lilac-dark) 24% 76%,#6f58aa 76%)}.mario-head{border-color:#5d478e;background:var(--lilac)}.mario-ball{border-color:#5d478e;background:var(--lilac-light)}.mario-ball:after{border-color:var(--lilac-dark)}
+.new-card .mario-art{inset:58px 0 60px;overflow:hidden}.new-card .mario-body{left:50%;right:auto;bottom:10px;transform:translateX(-50%)}.new-card .mario-head{left:50%;top:auto;bottom:78px;transform:translateX(-50%)}.new-card .mario-number{left:50%;top:auto;bottom:39px;transform:translateX(-50%)}.new-card .mario-ball{left:calc(50% + 34px);right:auto;bottom:18px}
