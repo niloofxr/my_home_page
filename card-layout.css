@@ -2,3 +2,4 @@
 .notebook-card .tic-tac-toe-grid{top:50%;left:50%;right:auto;bottom:auto;width:150px;height:150px;inset:auto;transform:translate(-50%,-50%)}
 .notebook-card .tic-tac-toe-grid{inset:auto;top:50%;left:50%;right:auto;bottom:auto;width:150px;height:150px;transform:translate(-50%,-50%)}
 .notebook-card .tic-tac-toe-grid{top:calc(50% - 2mm)}
+.new-card{background:var(--lilac-light)}
