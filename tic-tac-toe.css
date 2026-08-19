@@ -3,3 +3,11 @@
 .tic-tac-toe-grid i{border-right:3px solid var(--black);border-bottom:3px solid var(--black)}.tic-tac-toe-grid i:nth-child(3n){border-right:0}.tic-tac-toe-grid i:nth-last-child(-n+3){border-bottom:0}
 .tic-tac-toe-grid{position:relative}.tic-tac-toe-grid .grid-x{display:grid;place-items:center;color:var(--black);font:700 42px Outfit,sans-serif;line-height:1}.tic-tac-toe-grid:after{content:"";position:absolute;left:8%;top:49%;width:84%;height:4px;background:var(--lilac-dark);transform:rotate(45deg);transform-origin:center;border-radius:4px;z-index:3}
 .tic-tac-toe-grid:after{display:none}
+.notebook-card:hover .tic-tac-toe-grid:after{display:block;left:8%;top:49%;width:0;height:4px;background:var(--lilac-dark);transform:rotate(45deg);transform-origin:left center;animation:tic-line-draw .55s ease-out forwards;border-radius:4px;z-index:3}@keyframes tic-line-draw{to{width:84%}}
+.notebook-card:hover .tic-tac-toe-grid:after{z-index:5}.tic-tac-toe-grid .grid-x{position:relative;z-index:4}
+.tic-tac-toe-grid .winning-line{display:none;position:absolute;left:8%;top:49%;width:84%;height:5px;background:var(--lilac-dark);border-radius:5px;transform:rotate(45deg);transform-origin:left center;z-index:10}.notebook-card:hover .tic-tac-toe-grid .winning-line{display:block;animation:tic-line-overlay .55s ease-out forwards}@keyframes tic-line-overlay{from{width:0}to{width:84%}}
+.tic-tac-toe-grid .winning-line{left:6%;top:6%;width:125%;height:5px;transform:rotate(45deg);transform-origin:left center}.notebook-card:hover .tic-tac-toe-grid .winning-line{animation:tic-line-correct .55s ease-out forwards}@keyframes tic-line-correct{from{width:0}to{width:125%}}
+.notebook-card:hover .tic-tac-toe-grid:after{display:none}
+.tic-tac-toe-grid .winning-line{display:none!important}
+.notebook-card:hover .tic-tac-toe-grid:after{display:none!important}.notebook-card:hover .tic-tac-toe-grid .winning-line{display:block!important;left:6%;top:6%;width:125%;height:5px;background:var(--lilac-dark);border-radius:5px;transform:rotate(45deg);transform-origin:left center;z-index:10;animation:tic-line-final .55s ease-out forwards}@keyframes tic-line-final{from{width:0}to{width:125%}}
+.tic-tac-toe-grid i:nth-child(n+7){border-bottom:0}
